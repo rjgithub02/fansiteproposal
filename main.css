@@ -28,9 +28,15 @@ h2 {
   font-family: 'Questrial', sans-serif;
 }
 
+h3 {
+  text-align: center;
+}
+
 p {
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   text-indent: 50px;
+  padding: 10px;
 }
 
 img {
@@ -50,17 +56,21 @@ main {
 
 aside {
   grid-area: aside;
-  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
 }
 
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
-  padding: 5px;
+  padding: 3px;
 }
 
-footer {
-  grid-area: footer;
+th {
+    background-color: #4CAF50;
+    color: white;
 }
 
 @media
