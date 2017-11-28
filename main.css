@@ -1,5 +1,5 @@
 body {
-  background-color: #6a6b6d;
+  background-color: #CE2C24;
 }
 
 div.container {
@@ -10,7 +10,7 @@ div.container {
     "header header"
     "main aside"
     "footer footer";
-  max-width: 900px;
+  max-width: 950px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -48,14 +48,17 @@ img {
 header {
   grid-area: header;
   text-align: center;
+  margin: auto;
 }
 
 main {
   grid-area: main;
+  padding: 8px;
 }
 
 aside {
   grid-area: aside;
+  padding: 8px;
 }
 
 footer {
