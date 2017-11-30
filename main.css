@@ -1,5 +1,5 @@
 body {
-  background-color: #6a6b6d;
+  background-color: #D73539;
 }
 
 div.container {
@@ -19,7 +19,7 @@ h1 {
   max-width: 100%;
   color: #FEF8BA;
   text-align: left;
-  font-size: 24px;
+  font-size: 26px;
   font-family: 'Timmana', sans-serif;
 }
 
@@ -34,6 +34,18 @@ h3 {
   text-align: center;
 }
 
+a {
+  color: red;
+}
+
+a:hover {
+  color: #000000;
+}
+
+a:visited {
+  color: #FF0000;
+}
+
 p {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -45,6 +57,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px;
 }
 
 header {
@@ -55,7 +68,7 @@ header {
 
 main {
   grid-area: main;
-  padding: 8px;
+  padding: 10px;
 }
 
 aside {
@@ -68,10 +81,15 @@ footer {
 }
 
 table, th, td {
+  font-size: 17px;
   font-family: 'Open Sans Condensed', sans-serif;
   border: 1px solid black;
   border-collapse: collapse;
   padding: 3px;
 }
 
-@media
+@media (min-width: 320px) {
+  body {
+    background-color: #D73539;
+  }
+}
