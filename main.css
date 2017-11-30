@@ -1,5 +1,5 @@
 body {
-  background-color: #D73539;
+  background-color: #000000;
 }
 
 div.container {
@@ -90,6 +90,6 @@ table, th, td {
 
 @media (min-width: 320px) {
   body {
-    background-color: #D73539;
+    background-color: #000000;
   }
 }
